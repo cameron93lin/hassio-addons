@@ -23,15 +23,15 @@
   },
   "schema": {
       "broker": {
-        "host": "192.168.1.4",
-         "username": "hue",
-         "password": "hue"
+        "host": "str",
+         "username": "str",
+         "password": "str"
       },
       "bridges": [
         {
-          "host": "192.168.1.4",
-          "username": "hue",
-          "interval": "hue",
+          "host": "str",
+          "username": "str",
+          "interval": "str",
           "prefix": "str"
         }
       ]
