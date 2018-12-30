@@ -9,8 +9,8 @@
   "options": {
    "broker": {
      "host": "core-mosquitto",
-      "username": null,
-      "password": null
+      "username": "hue",
+      "password": "hue"
    },
    "bridges" : [
      {
