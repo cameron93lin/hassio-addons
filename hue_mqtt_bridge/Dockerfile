@@ -6,7 +6,7 @@ ENV LANG C.UTF-8
 ENV INSTALL_PATH="/bin/hue-mqtt-bridge"
 
 # Setup base
-RUN apk add --no-cache git nodejs
+RUN apk add --no-cache git nodejs npm
 
 # Hass.io CLI
 ARG BUILD_ARCH
